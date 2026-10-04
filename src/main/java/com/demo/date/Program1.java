@@ -1,0 +1,18 @@
+package com.demo.date;
+
+import java.util.Calendar;
+import java.util.Date;
+
+public class Program1 {
+	public static void main(String[] args) {
+		Date d=new Date();
+		System.out.println(d);
+		
+		Calendar c=Calendar.getInstance();
+		System.out.println(c.get(Calendar.YEAR));
+		System.out.println(c.get(Calendar.HOUR));
+		System.out.println(c.get(Calendar.DAY_OF_MONTH));
+		System.out.println(c.get(Calendar.DATE));
+		System.out.println(c.get(Calendar.DAY_OF_WEEK));
+	}
+}
